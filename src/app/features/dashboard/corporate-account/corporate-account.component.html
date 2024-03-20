@@ -1,0 +1,134 @@
+<div class="dashboard-cntr">
+  <div class="container">
+    <app-list></app-list>
+    <div class="dashboard-inner">
+      <div class="dashboard-left">
+        <div class="dasboard-left-top">
+          <div class="limit-overview-row">
+
+            <!-- limit overview -->
+            <div class="limit-overview-left">
+              <app-limit-overview></app-limit-overview>
+            </div>
+
+            <div class="limit-overview-right">
+
+              <!-- upcoming payment -->
+              <div class="div-bg overview-right-col">
+                <app-upcoming-payments></app-upcoming-payments>
+              </div>
+
+              <!-- overdue payment -->
+              <div class="div-bg overview-right-col">
+                <app-overdue-payments></app-overdue-payments>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- corporate account -->
+        <div class="dashboard-left-bottom">
+          <div class="div-bg corporate-col">
+            <div class="acc-cards-wrap">
+              <!-- accounts details -->
+              <div class="corporate-col-top">
+                <div class="corporate-top-left">
+                  <h6 class="small-heads">
+                    Corporate Account
+                    <span class="num-circle">3</span>
+                  </h6>
+                </div>
+                <div class="corporate-top-right">
+                  <div class="search-filter-cntr">
+                    <ul class="filter-list-wrap">
+                      <li>
+                        <button class="filter-btns">
+                          <span class="icon-filter"></span>
+                          Filter
+                        </button>
+                      </li>
+                      <li>
+                        <button class="filter-btns">
+                          <span class="icon-search"></span>
+                          Search
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="view-option-group">
+                    <ul class="view-option-list jsViewOption">
+                      <li class="option-items item-list-type">
+                        <button class="option-btn active">
+                          <span class="icon-select"></span>
+                        </button>
+                      </li>
+                      <li class="option-items item-filter">
+                        <button class="option-btn">
+                          <span class="icon-filter"></span>
+                        </button>
+                      </li>
+                      <li class="option-items">
+                        <button class="option-btn">
+                          <span class="icon-arrange"></span>
+                        </button>
+                      </li>
+                      <li class="option-items multiple-items">
+                        <button class="option-btn">
+                          <span class="icon-list"></span>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="search-input-wrap">
+                <input type="text" class="search-input" placeholder="Search">
+                <span class="icon-search"></span>
+              </div>
+              <div class="corporate-col-bottom">
+                <div class="corporate-account-details">
+                  <ul class="corporate-list-wrap">
+                    <li>
+                      <p class="size12 account-text">
+                        Corporate Accounts
+                      </p>
+                    </li>
+                    <li>
+                      <p class="size12 account-text">
+                        Outstanding Limit
+                      </p>
+                    </li>
+                    <li>
+                      <p class="size12 account-text">
+                        Upcoming payments
+                      </p>
+                    </li>
+                    <li>
+                      <p class="size12 account-text">
+                        Due date
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+
+
+                <div class="acc-cards-wrap" *ngFor="let accounts of accountsData.accounts">
+                  <app-account-list [accounts]="accounts"></app-account-list>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- adds -->
+      <div class="dashboard-right">
+        <app-adds></app-adds>
+      </div>
+
+
+    </div>
+  </div>
+</div>

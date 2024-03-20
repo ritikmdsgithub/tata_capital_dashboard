@@ -1,0 +1,51 @@
+{
+    "dashboard_name": "Corporate Accounts",
+    "accounts": [
+      {
+        "id":"APL0007",
+        "outstanding_limit": "₹1,24,24,153",
+        "upcoming_payments": "1,24,241.53",
+        "due_date": "17 Oct, 2024",
+        "company_name": "APL Apollo Tubes Ltd",
+        "overdue_payments": "2 overdue payments",
+        "overdue_by": "Overdue by 12 days"
+      },
+      {
+        "id":"JCB0007",
+        "outstanding_limit": "₹1,24,24,153",
+        "upcoming_payments": "1,24,241.53",
+        "due_date": "17 Dec, 2024",
+        "company_name": "JCB India Ltd",
+        "overdue_payments": "6 overdue payments",
+        "overdue_by": "Overdue by 10 days"
+      },
+      {
+        "id":"SKD0007",
+        "outstanding_limit": "₹1,24,24,153",
+        "upcoming_payments": "1,24,241.53",
+        "due_date": "20 Dec, 2024",
+        "company_name": "SKODA Auto India Ltd",
+        "overdue_payments": "4 overdue payments",
+        "overdue_by": "Overdue by 13 days"
+      },
+      {
+        "id":"BMW00002",
+        "outstanding_limit": "₹1,24,24,153 ",
+        "upcoming_payments": "1,24,241.53",
+        "due_date": "17 Nov, 2024",
+        "company_name": "BMW India Pvt Ltd",
+        "overdue_payments": "6 overdue payments",
+        "overdue_by": "Overdue by 15 days"
+      },
+      {
+        "id":"MRCD0001",
+        "outstanding_limit": "₹1,24,24,153 ",
+        "upcoming_payments": "1,24,241.53",
+        "due_date": "10 Dec, 2024",
+        "company_name": " Mercedes-Benz India Pvt Ltd",
+        "overdue_payments": "8 overdue payments",
+        "overdue_by": "Overdue by 12 days"
+      }
+    ]
+  }
+  

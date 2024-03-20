@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Archivo_Condensed-Black';
+    src: url('../fonts/text-fonts/Archivo_Condensed-Black.eot');
+    src: url('../fonts/text-fonts/Archivo_Condensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/text-fonts/Archivo_Condensed-Black.otf') format('otf'),
+        url('../fonts/text-fonts/Archivo_Condensed-Black.svg#Archivo_Condensed-Black') format('svg'),
+        url('../fonts/text-fonts/Archivo_Condensed-Black.ttf') format('truetype'),
+        url('../fonts/text-fonts/Archivo_Condensed-Black.woff') format('woff'),
+        url('../fonts/text-fonts/Archivo_Condensed-Black.woff2') format('woff2');
+
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo_Condensed-ExtraBold';
+    src: url('../fonts/text-fonts/Archivo_Condensed-ExtraBold.eot');
+    src: url('../fonts/text-fonts/Archivo_Condensed-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/text-fonts/Archivo_Condensed-ExtraBold.otf') format('otf'),
+        url('../fonts/text-fonts/Archivo_Condensed-ExtraBold.svg#Archivo_Condensed-ExtraBold') format('svg'),
+        url('../fonts/text-fonts/Archivo_Condensed-ExtraBold.ttf') format('truetype'),
+        url('../fonts/text-fonts/Archivo_Condensed-ExtraBold.woff') format('woff'),
+        url('../fonts/text-fonts/Archivo_Condensed-ExtraBold.woff2') format('woff2');
+
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Archivo_Condensed-Bold';
+    src: url('../fonts/text-fonts/Archivo_Condensed-Bold.eot');
+    src: url('../fonts/text-fonts/Archivo_Condensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/text-fonts/Archivo_Condensed-Bold.otf') format('otf'),
+        url('../fonts/text-fonts/Archivo_Condensed-Bold.svg#Archivo_Condensed-Bold') format('svg'),
+        url('../fonts/text-fonts/Archivo_Condensed-Bold.ttf') format('truetype'),
+        url('../fonts/text-fonts/Archivo_Condensed-Bold.woff') format('woff'),
+        url('../fonts/text-fonts/Archivo_Condensed-Bold.woff2') format('woff2');
+
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo_Condensed-SemiBold';
+    src: url('../fonts/text-fonts/Archivo_Condensed-SemiBold.eot');
+    src: url('../fonts/text-fonts/Archivo_Condensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/text-fonts/Archivo_Condensed-SemiBold.otf') format('otf'),
+        url('../fonts/text-fonts/Archivo_Condensed-SemiBold.svg#Archivo_Condensed-SemiBold') format('svg'),
+        url('../fonts/text-fonts/Archivo_Condensed-SemiBold.ttf') format('truetype'),
+        url('../fonts/text-fonts/Archivo_Condensed-SemiBold.woff2') format('woff2'),
+        url('../fonts/text-fonts/Archivo_Condensed-SemiBold.woff') format('woff');
+
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo_Condensed-Medium';
+    src: url('../fonts/text-fonts/Archivo_Condensed-Medium.eot');
+    src: url('../fonts/text-fonts/Archivo_Condensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/text-fonts/Archivo_Condensed-Medium.otf') format('otf'),
+        url('../fonts/text-fonts/Archivo_Condensed-Medium.svg#Archivo_Condensed-Medium') format('svg'),
+        url('../fonts/text-fonts/Archivo_Condensed-Medium.ttf') format('truetype'),
+        url('../fonts/text-fonts/Archivo_Condensed-Medium.woff') format('woff'),
+        url('../fonts/text-fonts/Archivo_Condensed-Medium.woff2') format('woff2');
+
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo_Condensed-Regular';
+    src: url('../fonts/text-fonts/Archivo_Condensed-Regular.eot');
+    src: url('../fonts/text-fonts/Archivo_Condensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/text-fonts/Archivo_Condensed-Regular.otf') format('otf'),
+        url('../fonts/text-fonts/Archivo_Condensed-Regular.svg#Archivo_Condensed-Regular') format('svg'),
+        url('../fonts/text-fonts/Archivo_Condensed-Regular.ttf') format('truetype'),
+        url('../fonts/text-fonts/Archivo_Condensed-Regular.woff') format('woff'),
+        url('../fonts/text-fonts/Archivo_Condensed-Regular.woff2') format('woff2');
+
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archivo_Condensed-Light';
+    src: url('../fonts/text-fonts/Archivo_Condensed-Light.eot');
+    src: url('../fonts/text-fonts/Archivo_Condensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/text-fonts/Archivo_Condensed-Light.otf') format('otf'),
+        url('../fonts/text-fonts/Archivo_Condensed-Light.svg#Archivo_Condensed-Light') format('svg'),
+        url('../fonts/text-fonts/Archivo_Condensed-Light.ttf') format('truetype'),
+        url('../fonts/text-fonts/Archivo_Condensed-Light.woff') format('woff'),
+        url('../fonts/text-fonts/Archivo_Condensed-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

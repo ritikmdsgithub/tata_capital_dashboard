@@ -1,0 +1,16 @@
+{
+    "adds":[
+        {
+            "heading":"Tata Capital launches GST-backed loan services",
+            "text":"No get a loan just on the basis of your GST returns",
+            "image":"assets/images/loan-service-img.png",
+            "button":"Know more"
+        },
+        {
+            "heading":"Mobile App",
+            "text":"Grow your business with Tata Capital’s Commercial and SME app",
+            "image":"assets/images/qr.png",
+            "button":"Download App"
+        }
+    ]
+}

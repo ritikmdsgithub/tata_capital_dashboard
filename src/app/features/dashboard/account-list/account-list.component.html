@@ -1,0 +1,80 @@
+<div class="acc-card-row">
+    <div class="acc-card-col" (mouseover)="toggleHover(accounts.id)" (mouseout)="toggleHover(!accounts.id)">
+      <div class="card-row-inner">
+        <div class="card-col company-name mob-w100">
+          <h5 class="size16 acc-name">
+            <span class="desc-show">{{accounts.id}}</span>
+            <span class="mob-show">{{accounts.company_name}}</span>
+            <span class="icon-pin"></span>
+          </h5>
+          <p class="size12 acc-desc">
+            <span class="desc-show">{{accounts.company_name}}</span>
+            <span class="mob-show">{{accounts.id}}</span>
+          </p>
+        </div>
+        <div class="card-col mob-w100">
+          <div class="outstanding-amount">
+            <div class="progress-bar">
+              <img src="assets/images/progress-icon.svg" alt="">
+            </div>
+            <div class="amount-remian">
+              <p class="outstanding-text">Outstanding Limit</p>
+              <p class="amount-info">
+
+                <span class="icon-rupee"></span> {{accounts.outstanding_limit}} / <span
+                  class="total-amount">2,00,00,000</span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="card-col">
+          <p class="size11 mob-show">
+            Due date
+          </p>
+          <p class="amount-info">
+            <span class="desc-show"><span class="icon-rupee"></span>{{accounts.upcoming_payments}}</span>
+            <span class="mob-show">{{accounts.due_date}}</span>
+          </p>
+          <p class="size12 overdue text-red">
+            <span class="desc-show">{{accounts.overdue_payments}}</span>
+            <span class="mob-show">{{accounts.overdue_by}}</span>
+          </p>
+        </div>
+        <div class="card-col">
+          <p class="size11 mob-show">
+            Overdue Amount
+          </p>
+          <h5 class="size16 acc-name">
+            <span class="desc-show">{{accounts.due_date}}</span>
+            <span class="mob-show">₹4,44,500</span>
+          </h5>
+          <p class="size12 overdue acc-desc">
+            <span class="desc-show">{{accounts.overdue_by}}</span>
+            <span class="mob-show">{{accounts.overdue_payments}}</span>
+          </p>
+        </div>
+      </div>
+ 
+
+      <div *ngIf="hoveredItem === accounts.id" class="request-disbursal" (mouseover)="toggleHover(accounts.id)">
+        <div class="request-disbursal-inner">
+          <div class="request-disbursal-left">
+            <p class="size14 limit-text">
+              67% <span class="mob-d-none">of your</span> limit consumed
+            </p>
+          </div>
+          <div class="request-disbursal-right">
+            <a href="javascript:void(0);" class="btn-with-arrow">Request disbursal <span
+                class="icon-arrow-right"></span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="next-btn">
+        <button class="btn-next">
+          <span class="icon-arrow-right"></span>
+        </button>
+      </div>
+    </div>
+  </div>

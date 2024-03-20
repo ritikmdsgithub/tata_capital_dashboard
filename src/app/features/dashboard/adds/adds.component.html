@@ -1,0 +1,14 @@
+<div class="dashboard-right">
+    <div class="div-bg backed-loan-col" *ngFor="let adds of addsData.adds">
+        <div class="backed-content">
+            <h5 class="heading20 right-dashboard-heads">
+                {{adds.heading}}
+            </h5>
+            <p class="gray-text gst-text">
+                {{adds.text}}
+            </p>
+            <a href="javascript:void(0);" class="btn btn-yellow know-more">{{adds.button}}</a>
+        </div>
+        <img src={{adds.image}} class="loan-service-img" alt="">
+    </div>
+</div>
